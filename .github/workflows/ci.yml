@@ -34,7 +34,6 @@ jobs:
       with:
         image: tosamkom/fang
         registry: docker.io
-        buildContext: DockerTestWebsiteLinux
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
          
